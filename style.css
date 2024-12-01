@@ -1,0 +1,314 @@
+body{
+    margin: 0;
+}
+
+.upper {
+    margin: 0;
+    background-image: url('zomatoim.avif');
+    background-size: cover;
+    background-repeat: no-repeat;  
+    width: 1600px;  
+    height: 450px;
+}
+.flex1{
+   margin: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    /* padding:10px 70px; */
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+  
+   
+
+}
+
+.clu{
+    display: flex;
+    gap: 30px;
+}
+
+.logo{
+    height: 60px;
+    width: 270px;
+    position: absolute;
+    left: 650px;
+    top: 100px;
+}
+.top-dis{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: 400px;
+    top: 170px;
+}
+.inp{
+    display: flex;
+    left: 400px;
+    top: 280px;
+    position: absolute;
+    gap: 6px;
+   
+}
+
+.place{
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    font-size: large;
+ 
+
+
+}
+.food{
+    width: 600px;
+    border-radius: 12px;
+    border: none;
+    font-size: large;
+
+}
+.flex{
+    display: flex;
+    position: absolute;
+    gap: 30px;
+    margin: 30px 230px;
+
+}
+.card{
+   
+    border: 1px solid gray;
+    height:230px;
+    width: 340px;
+    border-radius: 12px;
+    
+
+}
+.c1{
+    height: 170px;
+    width: 340px;
+    border-radius: 12px;
+    object-fit: cover;
+    justify-content: center;
+}
+.mar{
+    margin: 5px 15px;
+}
+.mar1{
+    margin: 5px 15px;
+    color: gray;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover
+    { transform: scale(1.05); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    margin: 0;
+}
+
+.dana{
+    position: absolute;
+    left: 200px;
+    top: 750px;
+    width: 1080px;
+    /* border: 2px solid red ; */
+     padding: 6px; 
+    margin:30px;
+}
+
+.head{
+    font-size:40px;
+    margin: 0;
+}
+.lol{
+    margin: 0;
+    color: rgb(100, 99, 99);
+}
+
+.dis-lin{
+    text-decoration: none;
+    color: rgb(226, 87, 87);
+}
+
+.card2{
+    position: relative;
+    height: 300px;
+    width:260px;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+.imn{
+    height:100%;
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+    display: block;
+    z-index: 0;
+
+}
+
+.c-flex{
+    display: flex;
+    top: 880px;
+    left: 240px;
+    position: absolute;
+    gap:10px;
+}
+.j1, .j2 { position: absolute; color: rgba(255, 255, 255, 0.849); z-index: 2;
+   } 
+.j1 { bottom: 40px; /* Adjust positioning */ left: 20px; } 
+.j2 { bottom: 10px; /* Adjust positioning */ left: 20px; margin-top: 10px; }
+.tint-overlay { position: absolute; 
+    top: 0; 
+    left: 0;
+     width: 100%;
+    height: 100%;
+    background-color: rgba(2, 2, 2, 0.496); 
+    z-index: 1;
+    border-radius: 8px;
+    gap: 20px;
+
+}
+
+
+.box {
+    position: absolute;
+    display: flex;
+    height: 300px;
+    width: 1080px;
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+    top: 100px;
+    gap: 20px; /* Adjust this value to reduce spacing between items */
+    align-content: flex-start; /* Align items to the start to reduce vertical space */
+}
+
+.b1 {
+    height: 50px;
+    width: 320px;
+    text-align: start;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px; /* Reduce space between the lines of flex items */
+}
+
+.local {
+    position: absolute;
+    top: 1250px;
+    left: 240px;
+    display: flex;
+    flex-direction: column; /* Ensure flex items align vertically */
+}
+
+.tit {
+    font-size: 40px;
+    margin-bottom: 20px; /* Optional: space between title and box */
+}
+
+.li ,.li1 {
+    margin: 4px;
+
+    
+}
+
+.li1{
+    color: gray;
+}
+
+.ing{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* lima part */
+
+.wing{
+
+    height: 400px;
+    width: 100%;
+    background-color: rgba(250, 243, 215, 0.403);
+    margin: 0;
+    position: relative;
+    top: 1300px;
+    display: flex;
+    padding: 100px;
+    align-items: center;
+}
+
+.phone{
+    height: 400px;
+    position: absolute;
+    left: 300px;
+}
+
+.gold{
+    position: absolute;
+    left: 700px;
+}
+.ag{
+    font-size: 40px;
+}
+.au{
+    font-size: large;
+    color: grey;
+}
+.out{
+    font-size: large;
+}
+
+.lipo{
+    font-size: 25px;
+    border-radius: 6px;
+     border: 1px solid lightgray; 
+}
+.me{
+    color: grey;
+}
+
+.flip{
+    height: 50px;
+}
+
+.susan{
+    position: relative;
+    top: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.san{
+     position: relative;  
+    font-size: 50px;
+    left: 200px;
+    color: rgba(0, 0, 0, 0.789);
+     margin-bottom: 20px;
+}
+
+
+.san-head{
+    /* position: absolute; */
+    height: 40px;
+    width: 1080px;
+    border: 2px solid gray;
+    font-size: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.718);
+    padding: 14px;
+     margin: 10px auto; 
+}
